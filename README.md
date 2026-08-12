@@ -18,3 +18,8 @@ Armen -
 Zain - 
 
 For your submission in Canvas, make sure to submit your (1) README file, (2) .ipynb file, and (3) .pdf file of a write-up that discusses the Math behind the recursive statements. Only one team member needs to submit on behalf of the group. 
+
+
+
+===Arman===
+We've still got to do the write-up and the UI. I'm fine doing either. I've got it locally, just need to sit down and do it. I'll have it in today so we can all look at it.
