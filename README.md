@@ -10,12 +10,12 @@ Step-by-step instructions to run your code
 The time it took to complete the assignment
 Wren's portion - 30-40min
 Armen - 
-Zain - 
+Zain - 50-60 minutes
 
 A brief note on each team member’s contributions
 Wren - creating the base recursion statement and testing edge cases
 Armen - 
-Zain - 
+Zain - Development of the visualization portion and the rods dictionary.
 
 For your submission in Canvas, make sure to submit your (1) README file, (2) .ipynb file, and (3) .pdf file of a write-up that discusses the Math behind the recursive statements. Only one team member needs to submit on behalf of the group. 
 
