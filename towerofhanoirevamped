@@ -1,0 +1,40 @@
+def print_rods(rods):
+    print()
+    print("A:", rods["A"])
+    print("B:", rods["B"])
+    print("C:", rods["C"])
+    print()
+
+
+def hanoi(n, source, temp, dest, rods):
+    if n <= 0:
+        return
+
+    # Move n-1 disks to temp using temp as a helper
+    hanoi(n - 1, source, dest, temp, rods)
+
+    # Move one disk
+    disk = rods[source].pop()
+    rods[dest].append(disk)
+
+    print(f"Move disk {disk} from {source} to {dest}")
+
+    # Display rods after each move
+    print_rods(rods)
+
+    # Move n-1 disks to its intended destination
+    hanoi(n - 1, temp, source, dest, rods)
+
+
+def solve_hanoi(n, source, temp, dest):
+    if n < 1:
+        print("Cannot solve  with current number of disks! Please try again.")
+        return
+
+    rods = {source: list(range(n, 0, -1)), temp: [], dest: []}
+
+    print_rods(rods)
+
+    hanoi(n, source, temp, dest, rods)
+
+    print("Tower of Hanoi completed!")
