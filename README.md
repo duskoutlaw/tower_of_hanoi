@@ -12,15 +12,20 @@ Step-by-step instructions to run your code
 5. The next cell should output all of the visualization and movements to complete the tower of hanoi.
 
 
+The time it took to complete the assignment:
 
-The time it took to complete the assignment
 Wren's portion - 45min
+
 Armen - 30 minutes
+
 Zain - 50-60 minutes
 
 A brief note on each team member’s contributions
-Wren - creating the base recursion statement and testing edge cases
+
+Wren - creating the base recursion statement, test edge cases, add instructions to run code
+
 Armen - PDF write-up for presentation and explanation of recursion from Wren's code and Zain's presentation. included docx for revision
+
 Zain - Development of the visualization portion and the rods dictionary.
 
 For your submission in Canvas, make sure to submit your (1) README file, (2) .ipynb file, and (3) .pdf file of a write-up that discusses the Math behind the recursive statements. Only one team member needs to submit on behalf of the group. 
